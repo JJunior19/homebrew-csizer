@@ -4,21 +4,21 @@ cask "csizer" do
 
   on_macos do
     on_arm do
-      sha256 "fba9b009d1b7243c4729314722605d6ac27daae14819bfa50b974ac8eaf5d5eb"
+      sha256 "edc647edb56ecdc77d7242dc79c85c58127fcf5fba3caa929d75476a25aa3acd"
       url "https://github.com/JJunior19/csizer/releases/download/v#{version}/csizer_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3178f5ce33e87003455ade31a0f8e25dc2884182a31e20effee0ef383ddbecbe"
+      sha256 "b003b30de8d7e8024eb2115e3625308919abbd7f9e374ea324285eb739573e0c"
       url "https://github.com/JJunior19/csizer/releases/download/v#{version}/csizer_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "99bbe21890dbf15c1a992573503185bac667f6aeff428cfdfe31a04bc1ad8c62"
+      sha256 "d41ec4fad1fb471789c35b9136c82034df125e71434674bfadbb947623b74eee"
       url "https://github.com/JJunior19/csizer/releases/download/v#{version}/csizer_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e75ebbb9b293d24a1d99b2ccc4070d2e0ffbb13594901f124110b035406e145a"
+      sha256 "32775abfa194546c76c60389dcd47cde55f9ff6f037f96ff7e025d0017c7db24"
       url "https://github.com/JJunior19/csizer/releases/download/v#{version}/csizer_#{version}_linux_amd64.tar.gz"
     end
   end
